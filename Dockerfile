@@ -15,4 +15,4 @@ WORKDIR /java-api
 COPY --from=maven target/echo-0.0.1-SNAPSHOT.jar ./echo-0.0.1-SNAPSHOT.jar
 
 CMD ["java", "-jar", "./echo-0.0.1-SNAPSHOT.jar"]
-#test
+#test1
