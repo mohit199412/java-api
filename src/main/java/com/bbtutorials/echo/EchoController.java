@@ -9,7 +9,7 @@ public class EchoController {
 	
 	@GetMapping("/echo/{name}")
     public String echo(@PathVariable String name) {
-	    System.out.println("ARGO CD PIPELINE");
+	    System.out.println("ARGO CD PIPELINE - Azure");
         return "My ARGO CD PIPELINE" + name;
     }
 
